@@ -13,7 +13,7 @@ def moveAllFilesinDir(srcDir, dstDir):
     else:
         print("[ERROR!] Unable to move files.")
 
-sourceDir = './{8777-Sertifi_Support_Site-html5.zip}/out'
+sourceDir = './{*.zip}/out'
 destDir =  '.'
 
 moveAllFilesinDir(sourceDir,destDir)

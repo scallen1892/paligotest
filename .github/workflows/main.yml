@@ -10,9 +10,9 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: '3.7' 
-      - run: python scripts/unzip.py
-      - run: python scripts/move.py
-      - run: python scripts/delete.py
+      - run: python ../../unzip.py
+      - run: python ../../move.py
+      - run: python ../../delete.py
       
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
